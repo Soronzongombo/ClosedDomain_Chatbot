@@ -424,7 +424,7 @@ def accuracy(y_true, y_pred):
 
 def main():
     print("Text preprocessing")
-    questions, answers = load_conversations_OpenDomain()
+    questions, answers = load_conversations_ClosedDomain()
 
     
     print("\nBuild tokenizer. Tokenize, filter and pad sentences")
